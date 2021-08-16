@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // for hested adalah perulangan dalam perulangan
+        for(i = 1; i<=10; i++){
+            for(j = 1; j <=10; j++){
+                document.write('Majiid')
+                console.log('Majiid')
+            }
+            document.write("<br>")
+            console.log('Majiid')
+        }
+
+
+
+
+        // Methode forEach merupakan method yang digunakan untuk melakukan perulangan dari jumlah element array.
+        // element: nilai dari element array.
+        // index: index dari element array.
+        // array: semua nilai dari element array.
+        var huruf = ["a", "b", "c", "d", "e"];
+        huruf.forEach(
+        function (element, index) {
+        console.log("Index ke: " + index + " = " + element);
+        console.log(index);
+        }
+        );
+    </script>
+</body>
+</html>
